@@ -4,7 +4,7 @@
   <id>https://diogocardoso.tech/</id>
   <title>Diogo Cardoso</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-07-24T11:02:39+01:00</updated>
+  <updated>2024-07-24T16:24:43+01:00</updated>
   <author>
     <name>Diogo Cardoso</name>
     <uri>https://diogocardoso.tech/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Historical Homelab Overview</title>
+    <link href="https://diogocardoso.tech/posts/HomelabOverview/" rel="alternate" type="text/html" title="Historical Homelab Overview" />
+    <published>2024-07-24T05:00:00+01:00</published>
+  
+    <updated>2024-07-24T05:00:00+01:00</updated>
+  
+    <id>https://diogocardoso.tech/posts/HomelabOverview/</id>
+    <content src="https://diogocardoso.tech/posts/HomelabOverview/" />
+    <author>
+      <name>diogo</name>
+    </author>
+
+  
+    
+    <category term="Homelab" />
+    
+  
+
+  <summary>An historical overview of my homelab</summary>
+
+  </entry>
 
   
   <entry>
