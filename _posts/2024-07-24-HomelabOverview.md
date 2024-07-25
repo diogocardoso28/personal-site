@@ -8,15 +8,15 @@ tags: [homelab, technology]
 ---
 # Backstory
 
-Around 2020 when I was interning as a software developer at a local company I started to grow an interest in hosting my stuff, this came after hearing cool terms such as _auto deploy_, _auto testing_, _DevOps_, _plesk_, and _docker_. After building up some courage, I started to ask some questions to the technology manager at the time there and he began to teach me about the use of multiple domains and reverse proxies, admin panels, and he even showed me some parts of the configurations that they were using at the company, this talk had me sold the idea of running my servers and self-hosting my services.
+Around 2020 when I was interning as a software developer at a local company, I started to grow an interest in hosting my stuff, this came after hearing cool terms such as _auto deploy_, _auto testing_, _DevOps_, _plesk_, and _docker_. After building up some courage, I started to ask some questions to the technology manager at the time there and he began to teach me about the use of multiple domains and reverse proxies, admin panels, and he even showed me some parts of the configurations that they were using at the company, this talk had me sold the idea of running my servers and self-hosting my services.
 
 # My first hardware
 I managed to get hold of three old machines (for free!). I got two HP ProDesk 400 G1s, these were fairly poorly specked since they were only serving as POS terminals. These machines had an Intel Pentium G3220 paired with 2GB of RAM and 500GB HDDs. 
 The third machine was the more powerful one, it was a Dell Optiplex 390 specked with an Intel i3-2120 with 4GB of RAM and 1TB of HDD storage.
 
 # The first upgrades
-Before I did any configuration or first deployment I knew right away that I needed to upgrade these machines, so I started by ordering an 8GB stick of ram out of AliExpress (budget was tight and It somehow it still works to this day).
-This 8GB stick ended up in the dell machine and I split the two 2GB sticks this machine had between the HP machines therefore leaving the Dell with 8GB of ram and the HPs with 4GB each.
+Before I did any configuration or first deployment, I knew right away that I needed to upgrade these machines, so I started by ordering an 8GB stick of ram out of AliExpress (budget was tight and It somehow it still works to this day).
+This 8GB stick ended up in the dell machine and I split the two 2GB sticks this machine had between the HP machines, therefore leaving the Dell with 8GB of ram and the HPs with 4GB each.
 I also knew that I wanted a NAS, since I wasn't really queen on trusting my data on god knows how old hard drives, therefore, I got myself a Seagate IronWolf 2TB hdd to put my most important data on.
 
 # The first deployment
@@ -50,17 +50,17 @@ In hindsight and due to the unknown past of my disks, I should have used a tool 
 The need to use LVM expand my disk space lead me to just re-installing everything and doing some things better. During this major change, I also ditched the 'raw' use of nginx and certbot and started to use nginx proxy manager which made managing domains a breeze.
 
 # Hosting my media                                                                                                                                                                                    
-Early 2023 I stared to gain interest in hosting my own media, during this phase I tested out services like [plex](https://www.plex.tv/) and [jellyfin](https://jellyfin.org/). I ended up settling for jellyfin since I want to use as much Open-source software as possible, another feature of jellyfin that made it even more appealing was the ability to stream live television. 
-To make live tv and recordings available on my jellyfin I used [Tvheadend](https://tvheadend.org/) in combination with two DTV tuners. Contrary to IPTV and other digital services most of the usb DTV tuners can only tune in to one channel at the time which makes it impossible to watch a chanel and record another ate the same time.
-My dvd and Blu-ray collection was of a severe size therefore I also found the need to increase my HDD capacity to suit these needs. Once again LVM came in handy since I managed to find an old 2TB CCTV HDD for cheap and it made the perfect candidate for expanding the storage of server.
-The server tasked to handle all this tasks was the Dell optiplex, which struggled to keep up transcoding tasks and tv recordings. I must admit that I got super lucky with the use of LVM and a mix of disks with varying ages and varying working hours especially since I just added the previously mentioned CCTV HDD to my boot drive pool.    
+Early 2023 I stared to gain interest in hosting my own media, during this phase I tested out services like [plex](https://www.plex.tv/) and [jellyfin](https://jellyfin.org/). I ended up settling for jellyfin since I wanted to use as much Open-source software as possible, another feature of jellyfin that made it even more appealing was the ability to stream live television. 
+To make live tv and recordings available on my jellyfin, I used [Tvheadend](https://tvheadend.org/) in combination with two DTV tuners. Contrary to IPTV and other digital services, most of the usb DTV tuners can only tune in to one channel at the time which makes it impossible to watch a chanel and record another ate the same time.
+My dvd and Blu-ray collection was of a severe size. Therefore, I also found the need to increase my HDD capacity to suit these needs. Once again LVM came in handy since I managed to find an old 2TB CCTV HDD for cheap and it made the perfect candidate for expanding the storage of server.
+The server tasked to handle all these tasks was the Dell optiplex, which struggled to keep up transcoding tasks and tv recordings. I must admit that I got superlucky with the use of LVM and a mix of disks with varying ages and varying working hours especially since I just added the previously mentioned CCTV HDD to my boot drive pool.    
 
 # New server
-After around two months of highly stressing my Dell optiplex and loosing my mind to transcodes hanging and countless streaming errors due to the lack of adequate compute power, I decided that I needed an upgrade.
+After around two months of highly stressing my Dell optiplex and losing my mind to transcodes hanging and countless streaming errors due to the lack of adequate compute power, I decided that I needed an upgrade.
 I started to browse the local used market (which is not very good in Portugal) and soon realized that if I wanted tons of computing power for cheap, I would have to go for an old enterprise server.
 I ended up settling for a used dell r620. This old beast came with two Intel Xeons E5-2670, 64GB of DDR3 ram, two 900GB sas HDDs and dual redundant PSUs. Compared to my old machines this thing was a powerhouse but a new problem appeared. 
-This server's chassis came configured with option to support 8 2,5" disks but all my existing media is on 3.5" disks. To tackle this problem, I ended up moving all the drives to the optiplex machine and used that to server all my media as smb network shares.
-To avoid having to set everything up again I decided to clone the drive from optiplex server to an SSD and use that as a boot disk to my new r620 server.
+This server's chassis came configured with option to support 8 2,5" disks, but all my existing media is on 3.5" disks. To tackle this problem, I ended up moving all the drives to the optiplex machine and used that to server all my media as smb network shares.
+To avoid having to set everything up again, I decided to clone the drive from optiplex server to an SSD and use that as a boot disk to my new r620 server.
         
 This left me with the following setup: 
 ![V2 of my homelab](/assets/img/posts/HomelabOverview/HomelabV2.png "Homelab Diagram V2")
