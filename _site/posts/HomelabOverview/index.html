@@ -43,7 +43,7 @@
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Historical Homelab Overview" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Diogo Cardoso","url":"https://github.com/diogocardoso28"},"dateModified":"2024-07-24T05:00:00+01:00","datePublished":"2024-07-24T05:00:00+01:00","description":"An historical overview of my homelab","headline":"Historical Homelab Overview","mainEntityOfPage":{"@type":"WebPage","@id":"https://diogocardoso.tech/posts/HomelabOverview/"},"url":"https://diogocardoso.tech/posts/HomelabOverview/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"Diogo Cardoso","url":"https://github.com/diogocardoso28"},"dateModified":"2024-07-25T18:27:27+01:00","datePublished":"2024-07-24T05:00:00+01:00","description":"An historical overview of my homelab","headline":"Historical Homelab Overview","mainEntityOfPage":{"@type":"WebPage","@id":"https://diogocardoso.tech/posts/HomelabOverview/"},"url":"https://diogocardoso.tech/posts/HomelabOverview/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -684,6 +684,29 @@
 
       <!-- lastmod date -->
       
+        <span>
+          Updated
+          <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+<time
+  
+  data-ts="1721928447"
+  data-df="ll"
+  
+    data-bs-toggle="tooltip" data-bs-placement="bottom"
+  
+>
+  Jul 25, 2024
+</time>
+
+        </span>
+      
 
       
 
@@ -741,7 +764,7 @@
   <div class="content">
     <h1 id="backstory">Backstory</h1>
 
-<p>Around 2020 when I was interning as a software developer at a local company, I started to grow an interest in hosting my stuff, this came after hearing cool terms such as <em>auto deploy</em>, <em>auto testing</em>, <em>DevOps</em>, <em>plesk</em>, and <em>docker</em>. After building up some courage, I started to ask some questions to the technology manager at the time there and he began to teach me about the use of multiple domains and reverse proxies, admin panels, and he even showed me some parts of the configurations that they were using at the company, this talk had me sold the idea of running my servers and self-hosting my services.</p>
+<p>Around 2021 when I was interning as a software developer at a local company, I started to grow an interest in hosting my stuff, this came after hearing cool terms such as <em>auto deploy</em>, <em>auto testing</em>, <em>DevOps</em>, <em>plesk</em>, and <em>docker</em>. After building up some courage, I started to ask some questions to the technology manager at the time there and he began to teach me about the use of multiple domains and reverse proxies, admin panels, and he even showed me some parts of the configurations that they were using at the company, this talk had me sold the idea of running my servers and self-hosting my services.</p>
 
 <h1 id="my-first-hardware">My first hardware</h1>
 <p>I managed to get hold of three old machines (for free!). I got two HP ProDesk 400 G1s, these were fairly poorly specked since they were only serving as POS terminals. These machines had an Intel Pentium G3220 paired with 2GB of RAM and 500GB HDDs. 
@@ -782,7 +805,7 @@ At this point, I still didn’t know about the existence of tools such as <a hre
 To solve the hard drive filling up I decided to use linuxe’s Logical Volume Manager (LVM) which allowed me to combine multiple disks of different capacities and use them for a single big disk. In this case, I combined the space 500GB HDD with the 1TB one present in the Dell machine. 
 In hindsight and due to the unknown past of my disks, I should have used a tool like <a href="https://github.com/trapexit/mergerfs">mergerfs</a> which wouldn’t leave me with a total loss of data if a single drive failed.</p>
 
-<p>The need to use LVM expand my disk space lead me to just re-installing everything and doing some things better. During this major change, I also ditched the ‘raw’ use of nginx and certbot and started to use nginx proxy manager which made managing domains a breeze.</p>
+<p>The need to use LVM expand my disk space led me to just re-installing everything and doing some things better. During this major change, I also ditched the ‘raw’ use of nginx and certbot and started to use nginx proxy manager which made managing domains a breeze.</p>
 
 <h1 id="hosting-my-media">Hosting my media</h1>
 <p>Early 2023 I stared to gain interest in hosting my own media, during this phase I tested out services like <a href="https://www.plex.tv/">plex</a> and <a href="https://jellyfin.org/">jellyfin</a>. I ended up settling for jellyfin since I wanted to use as much Open-source software as possible, another feature of jellyfin that made it even more appealing was the ability to stream live television. 

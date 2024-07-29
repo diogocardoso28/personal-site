@@ -1,0 +1,73 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>Diogo Cardoso</title>
+  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
+  <updated>2024-07-27T13:29:22+01:00</updated>
+  <author>
+    <name>Diogo Cardoso</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 Diogo Cardoso </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Historical Homelab Overview</title>
+    <link href="http://localhost:4000/posts/HomelabOverview/" rel="alternate" type="text/html" title="Historical Homelab Overview" />
+    <published>2024-07-24T05:00:00+01:00</published>
+  
+    <updated>2024-07-25T18:27:27+01:00</updated>
+  
+    <id>http://localhost:4000/posts/HomelabOverview/</id>
+    <content src="http://localhost:4000/posts/HomelabOverview/" />
+    <author>
+      <name>diogo</name>
+    </author>
+
+  
+    
+    <category term="Homelab" />
+    
+  
+
+  <summary>An historical overview of my homelab</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>About Me</title>
+    <link href="http://localhost:4000/posts/about-me/" rel="alternate" type="text/html" title="About Me" />
+    <published>2024-07-20T17:34:00+01:00</published>
+  
+    <updated>2024-07-20T17:34:00+01:00</updated>
+  
+    <id>http://localhost:4000/posts/about-me/</id>
+    <content src="http://localhost:4000/posts/about-me/" />
+    <author>
+      <name>diogo</name>
+    </author>
+
+  
+    
+    <category term="Blogging" />
+    
+    <category term="Personal" />
+    
+  
+
+  <summary>introduction of myself  👋</summary>
+
+  </entry>
+
+</feed>
+
+

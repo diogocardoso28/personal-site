@@ -8,7 +8,7 @@ tags: [homelab, technology]
 ---
 # Backstory
 
-Around 2020 when I was interning as a software developer at a local company, I started to grow an interest in hosting my stuff, this came after hearing cool terms such as _auto deploy_, _auto testing_, _DevOps_, _plesk_, and _docker_. After building up some courage, I started to ask some questions to the technology manager at the time there and he began to teach me about the use of multiple domains and reverse proxies, admin panels, and he even showed me some parts of the configurations that they were using at the company, this talk had me sold the idea of running my servers and self-hosting my services.
+Around 2021 when I was interning as a software developer at a local company, I started to grow an interest in hosting my stuff, this came after hearing cool terms such as _auto deploy_, _auto testing_, _DevOps_, _plesk_, and _docker_. After building up some courage, I started to ask some questions to the technology manager at the time there and he began to teach me about the use of multiple domains and reverse proxies, admin panels, and he even showed me some parts of the configurations that they were using at the company, this talk had me sold the idea of running my servers and self-hosting my services.
 
 # My first hardware
 I managed to get hold of three old machines (for free!). I got two HP ProDesk 400 G1s, these were fairly poorly specked since they were only serving as POS terminals. These machines had an Intel Pentium G3220 paired with 2GB of RAM and 500GB HDDs. 
@@ -47,7 +47,7 @@ Part of the homelab experience is gaining more knowledge and finding better ways
 To solve the hard drive filling up I decided to use linuxe's Logical Volume Manager (LVM) which allowed me to combine multiple disks of different capacities and use them for a single big disk. In this case, I combined the space 500GB HDD with the 1TB one present in the Dell machine. 
 In hindsight and due to the unknown past of my disks, I should have used a tool like [mergerfs](https://github.com/trapexit/mergerfs) which wouldn't leave me with a total loss of data if a single drive failed.    
 
-The need to use LVM expand my disk space lead me to just re-installing everything and doing some things better. During this major change, I also ditched the 'raw' use of nginx and certbot and started to use nginx proxy manager which made managing domains a breeze.
+The need to use LVM expand my disk space led me to just re-installing everything and doing some things better. During this major change, I also ditched the 'raw' use of nginx and certbot and started to use nginx proxy manager which made managing domains a breeze.
 
 # Hosting my media                                                                                                                                                                                    
 Early 2023 I stared to gain interest in hosting my own media, during this phase I tested out services like [plex](https://www.plex.tv/) and [jellyfin](https://jellyfin.org/). I ended up settling for jellyfin since I wanted to use as much Open-source software as possible, another feature of jellyfin that made it even more appealing was the ability to stream live television. 
