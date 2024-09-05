@@ -4,7 +4,7 @@
   <id>https://diogocardoso.tech/</id>
   <title>Diogo Cardoso</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-05T19:44:30+01:00</updated>
+  <updated>2024-09-05T19:45:23+01:00</updated>
   <author>
     <name>Diogo Cardoso</name>
     <uri>https://diogocardoso.tech/</uri>
@@ -65,6 +65,30 @@
   
 
   <summary>introduction of myself  👋</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Aria - Your Smart Home Platform</title>
+    <link href="https://diogocardoso.tech/posts/ProfessionalCourseFinalProject/" rel="alternate" type="text/html" title="Aria - Your Smart Home Platform" />
+    <published>2021-07-06T05:00:00+01:00</published>
+  
+    <updated>2021-07-06T05:00:00+01:00</updated>
+  
+    <id>https://diogocardoso.tech/posts/ProfessionalCourseFinalProject/</id>
+    <content src="https://diogocardoso.tech/posts/ProfessionalCourseFinalProject/" />
+    <author>
+      <name>diogo</name>
+    </author>
+
+  
+    
+    <category term="Projects" />
+    
+  
+
+  <summary>An overview of my professional course (High School) final year&amp;#39;s project</summary>
 
   </entry>
 
