@@ -4,7 +4,7 @@
   <id>https://diogocardoso.tech/</id>
   <title>Diogo Cardoso</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-05T19:45:23+01:00</updated>
+  <updated>2024-09-09T11:58:54+01:00</updated>
   <author>
     <name>Diogo Cardoso</name>
     <uri>https://diogocardoso.tech/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Easily host game servers with AMP</title>
+    <link href="https://diogocardoso.tech/posts/AmpGameserver/" rel="alternate" type="text/html" title="Easily host game servers with AMP" />
+    <published>2024-09-09T05:00:00+01:00</published>
+  
+    <updated>2024-09-09T05:00:00+01:00</updated>
+  
+    <id>https://diogocardoso.tech/posts/AmpGameserver/</id>
+    <content src="https://diogocardoso.tech/posts/AmpGameserver/" />
+    <author>
+      <name>diogo</name>
+    </author>
+
+  
+    
+    <category term="Homelab" />
+    
+  
+
+  <summary>A guide to setup AMP - Game Server Control Panel</summary>
+
+  </entry>
 
   
   <entry>
