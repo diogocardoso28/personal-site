@@ -4,7 +4,7 @@
   <id>https://diogocardoso.tech/</id>
   <title>Diogo Cardoso</title>
   <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-09T11:58:54+01:00</updated>
+  <updated>2024-09-28T14:45:14+01:00</updated>
   <author>
     <name>Diogo Cardoso</name>
     <uri>https://diogocardoso.tech/</uri>
@@ -17,6 +17,30 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Access and Decode BMW Motorcycle CAN Bus</title>
+    <link href="https://diogocardoso.tech/posts/DecodingBmwMotorcycleCanbus/" rel="alternate" type="text/html" title="Access and Decode BMW Motorcycle CAN Bus" />
+    <published>2024-09-28T05:00:00+01:00</published>
+  
+    <updated>2024-09-28T05:00:00+01:00</updated>
+  
+    <id>https://diogocardoso.tech/posts/DecodingBmwMotorcycleCanbus/</id>
+    <content src="https://diogocardoso.tech/posts/DecodingBmwMotorcycleCanbus/" />
+    <author>
+      <name>diogo</name>
+    </author>
+
+  
+    
+    <category term="Canbus" />
+    
+  
+
+  <summary>How to access BMW&amp;#39;s motorcycle CAN Bus network and decode messages</summary>
+
+  </entry>
 
   
   <entry>
