@@ -3,8 +3,8 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <id>https://diogocardoso.tech/</id>
   <title>Diogo Cardoso</title>
-  <subtitle>A minimal, responsive and feature-rich Jekyll theme for technical writing.</subtitle>
-  <updated>2024-09-28T14:45:14+01:00</updated>
+  <subtitle>A place where I write about things that I'm passionate about and my personal projects.</subtitle>
+  <updated>2024-10-02T19:02:58+01:00</updated>
   <author>
     <name>Diogo Cardoso</name>
     <uri>https://diogocardoso.tech/</uri>
@@ -33,6 +33,8 @@
     </author>
 
   
+    
+    <category term="Projects" />
     
     <category term="Canbus" />
     

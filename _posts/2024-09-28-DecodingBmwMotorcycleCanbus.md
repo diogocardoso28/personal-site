@@ -3,7 +3,7 @@ title: Access and Decode BMW Motorcycle CAN Bus
 author: diogo
 description: How to access BMW's motorcycle CAN Bus network and decode messages
 date: 2024-09-28 12:00:00 +0800
-categories: [Canbus]
+categories: [Projects,Canbus]
 tags: [canbus, vehicle network, candleLight]
 ---
 
